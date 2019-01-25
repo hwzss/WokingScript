@@ -23,7 +23,7 @@ for parent, dirnames, filenames in os.walk(files_dir_path) :
 						lineNum += 1
 						pageNum = lineNum / pageLines
 						if pageNum > maxPage :	            			
-								print ("end..., page num is ", pageNum)
+								print ("end..., the page num is ", pageNum)
 								code_file.close
 								os._exit(0)
 						code_file.write(lines)
